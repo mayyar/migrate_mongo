@@ -32,7 +32,7 @@ $ tree
     ```bash
     $ mv crawler ffo
     ```
-    * Use ```--nsInclude```, passing in the full namespace (<database>.<collection>) of the collection.
+    * Use ```--nsInclude```, passing in the full namespace (**DATABASE**.**COLLECTION**) of the collection.
     ```bash
     $ mongorestore --uri="mongodb+srv://user_a:password_a@database_b.mongodb.net/db_1?ssl=true&authSource=admin" --nsInclude="db_1.collection_b" ./dump
     ```
